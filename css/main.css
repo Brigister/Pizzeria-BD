@@ -1,0 +1,184 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    width:100%;
+    height: auto;
+    padding: 1em;
+    background-color: gainsboro;
+}
+.header:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.header ul.menu{
+    float:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.header ul.menu:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.header ul.menu a{
+    color:black;
+}
+
+.header ul.menu a li{
+    display: block;
+    float:left;
+    margin: 0 1em;
+}
+
+.header ul.menu a:hover{
+    background-color: gray;
+    color:white;
+}
+
+.header .pizzaSearch{
+    float: right;
+}
+.container{
+    width:80%;
+    min-width: 800px;
+    margin:0 auto;
+}
+
+.catalogoPizze{
+    list-style-type: none;
+}
+
+.catalogoPizze > li{
+    margin: 1em;
+    padding: 1em;
+    border-bottom: 1px solid gray;
+}
+
+.catalogoPizze > li:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.catalogoPizze > li .prezzo{
+    margin-top: 2em;
+    display:block;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right;
+}
+.catalogoPizze > li .qnt{
+    width:30px;
+}
+
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+
+.loginForm{
+    width: 50%;
+    margin: 3em auto;
+    border-radius:0.5em;
+    background-color: gainsboro;
+    padding:2em;
+}
+.loginForm input,
+.loginForm label,
+.loginForm button{
+    display:block;
+    width:80%;
+    margin:1em auto;
+}
+.loginForm button{
+    padding: 0.3em 1em;
+    width:auto;
+}
+.loginForm label{
+    margin-bottom:0;
+}
+
+
+
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+.carrello table.carrelloTable{
+    width:100%;
+}
+
+.carrello input{
+    width:50%;
+}
+form.style input[type=number]{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+form.style input[type=text],
+form.style input[type=password],
+form.style select,
+form.style textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+carrello .label {
+    width:25%;
+}
+form.style label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+form.style input[type=submit],
+form.style button{
+    background-color: #888888;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin:1em 0.3em;
+}
+
+form.style input[type=submit]:hover,
+form.style button:hover {
+    background-color: #464646;
+}
+
+form.style:after{
+    content: '';
+    display:block;
+    clear:both;
+}
+
+
+
